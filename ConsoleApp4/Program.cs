@@ -33,49 +33,6 @@ for (int tItr = 0; tItr < t; tItr++)
 
 textWriter.Flush();
 textWriter.Close();
-
-
-//int t = 1;
-//for (int tItr = 0; tItr < t; tItr++)
-//{
-//    string[] firstMultipleInput = "4 4".TrimEnd().Split(' ');
-
-//    int n = Convert.ToInt32(firstMultipleInput[0]);
-
-//    int m = Convert.ToInt32(firstMultipleInput[1]);
-
-//    List<List<int>> edges = new List<List<int>>();
-
-
-//    edges.Add("1 2 24".TrimEnd().Split(' ').ToList().Select(edgesTemp => Convert.ToInt32(edgesTemp)).ToList());
-//    edges.Add("1 4 20".TrimEnd().Split(' ').ToList().Select(edgesTemp => Convert.ToInt32(edgesTemp)).ToList());
-//    edges.Add("3 1 3".TrimEnd().Split(' ').ToList().Select(edgesTemp => Convert.ToInt32(edgesTemp)).ToList());
-//    edges.Add("4 3 12".TrimEnd().Split(' ').ToList().Select(edgesTemp => Convert.ToInt32(edgesTemp)).ToList());
-
-
-//    int s = Convert.ToInt32("1".Trim());
-
-//List<int> result = Result.shortestReach(9, null,1);
-
-//    Console.WriteLine(String.Join(" ", result));
-//}
-/*
- 1
-4 4
-1 2 24
-1 4 20
-3 1 3
-4 3 12
-1
-*/
-/*
- 1
-5 3
-1 2 10
-1 3 6
-2 4 8
-2
-*/
 class Result
 {
 
